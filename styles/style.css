@@ -125,9 +125,6 @@
 
 }
 
-.card__image-wrapper {
-  border-bottom: 2px solid black;
-}
 
 .card__text {
   font-size: 18px;
