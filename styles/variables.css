@@ -1,1 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  /* FONTS */
+  --font-family-main: 'Inter', sans-serif;
+  --font-family-accent: 'PressStart2P', monospace;
+  --font-weight-heading: 700;
+  --font-weight-main: 400;
+
+  --stroke-color: rgba(255, 255, 255, 1);
+
+  /* BAKGROUND */
+  --bg-stripe-color: #d3d3d3;
+  --bg-top-color: #e7e7e7;
+  --bg-bottom-color: #1a1a1a;
+
+  /* BUTTONS */
+  --button-text-color: #fff;
+  --button-bg-color: #fff;
+  --button-accent-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
+}
+
