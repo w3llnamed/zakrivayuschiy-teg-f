@@ -14,7 +14,12 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-family-main);
-  padding: 100px 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-image:
     repeating-linear-gradient(to right,
       var(--bg-stripe-color),
@@ -125,7 +130,6 @@
 
 }
 
-
 .card__text {
   font-size: 18px;
 }
@@ -169,10 +173,6 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-
-
-
-
 
 .like-icon .core,
 .like-icon .main-body,
@@ -230,11 +230,6 @@
   transition-delay: 0.06s;
 }
 
-
-
-
-
-
 .like-icon.is-liked .heart {
   animation: scale-heart 0.3s ease-in 0.1s;
   transform-origin: center;
@@ -249,8 +244,6 @@
     transform: scale(1.25);
   }
 }
-
-
 
 .like-icon.is-liked .sparks {
   animation: sparks-burst 0.3s ease-in 0.3s;
@@ -268,11 +261,6 @@
     transform: scale(1.5);
   }
 }
-
-
-
-
-
 
 .card__like-button {
   height: 38px;
