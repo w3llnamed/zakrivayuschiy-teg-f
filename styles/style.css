@@ -146,8 +146,6 @@
 }
 
 .card__icon-button {
-  border: none;
-  background-color: transparent;
   font-family: var(--font-family-accent);
   border: 2px solid transparent;
   display: flex;
@@ -292,7 +290,6 @@
   color: var(--button-text-color);
   font-family: var(--font-family-accent);
   font-size: 14px;
-  transition: 0.3s ease;
   cursor: pointer;
   z-index: 0;
   transition: background-color 0.3s ease;

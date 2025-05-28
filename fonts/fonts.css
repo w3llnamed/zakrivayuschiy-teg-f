@@ -4,11 +4,13 @@
 /* Подключение вариативного шрифта Inter */
 @font-face {
   font-family: 'Inter';
-  src: url('./Inter-Variable.woff2');
+  src: url('./Inter-Variable.woff2') format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
+  font-variation-settings: 'wght' 400, 'wght' 785;
 }
+
 
 /* Подключение шрифта PressStart2P */
 @font-face {
