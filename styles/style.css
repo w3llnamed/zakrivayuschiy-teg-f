@@ -69,7 +69,7 @@
   display: flex;
   flex-direction: column;
   border: 2px solid rgba(0, 0, 0, 1);
-  margin-bottom: 50px;
+  margin-bottom: 52px;
   background-color: white;
 }
 
@@ -135,10 +135,10 @@
 }
 
 .card__button-wrapper {
+  height: 38px;
   align-self: end;
   display: flex;
-  align-items: end;
-  justify-content: end;
+  gap: 4px;
 }
 
 .card__icon-button {
@@ -154,7 +154,6 @@
 }
 
 .card__like-button {
-  height: 38px;
   width: 130px;
   padding: 9px 17px;
 }
@@ -170,10 +169,6 @@
   z-index: 0;
   transition: background-color 0.3s ease;
   border: 2px solid black;
-}
-
-.button:hover {
-  color: white;
 }
 
 .button__text {
